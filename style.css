@@ -10,6 +10,7 @@ img{
     margin-right:15vh; 
     border-radius: 1em; 
     border:0.5em inset #A68F7B; 
+    background-color: red;
 } 
 #section2{
     display:flex;
