@@ -1,0 +1,39 @@
+body{
+    background-color: #D9C49C; 
+ 
+
+} 
+img{
+    height:32em; 
+    width:22em; 
+    margin-top:15vh; 
+    margin-right:15vh; 
+    border-radius: 1em; 
+    border:0.5em inset #A68F7B;
+} 
+#section2{
+    display:flex;
+} 
+p{
+    margin-top: 15vh;  
+    margin-right:2em; 
+    font-size: 1.5em; 
+    font-family: 'Orelega One', cursive; 
+    
+}  
+#texto-section2{
+    margin-top: 10em;
+} 
+#subtitulo{
+    font-family: 'Square Peg', cursive; 
+    font-weight: 13em; 
+    font-size:3em;
+    padding-left:2em;
+    margin-right:1em; 
+    margin-bottom:-10%;
+}
+
+
+@media (min-width: 481px){
+
+}
