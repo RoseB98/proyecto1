@@ -83,7 +83,8 @@ p{
 #texto-section2{
     margin-top: 10em;
 } 
-#subtitulo{
+p #subtitulo{ 
+    height:3em;
     font-family: 'Square Peg', cursive; 
     font-weight: 13em; 
     font-size:3em;
