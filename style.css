@@ -85,13 +85,10 @@ body{
 
 
 
-img{
-    height:32em; 
-    width:22em; 
-    margin-top:15vh; 
-    margin-right:15vh; 
-    border-radius: 1em; 
-    border:0.5em inset #A68F7B; 
+.imagen1{
+  Width:1451px;
+Height:1032px;
+
 } 
 #section2{
     display:flex;
