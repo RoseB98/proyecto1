@@ -1,36 +1,83 @@
 
 body{
-  width: 90vw;
-  height: 100vh;
+  width: 103vw;
+  height: 100vh; 
+  background-color: #D9C49C; 
 }
 body p {
   font-family: 'Poppins', sans-serif;
+}  
+.brand{
+  margin-top: -1.5em; 
+  margin-bottom: -1em;
+} 
+.brand span{
+  color:#e0c8e6;
+}
+.menu{
+  display:flex;
+  width: 40%;
+  justify-content: space-between;
+  padding-top: 3em;
+} 
+.menu a:hover{
+  background-color: aqua;
+  color:#c82feb;
+}
+.menu li {
+  list-style: none;
+} 
+.menu span{
+  color:#e0c8e6;
+}
+.menu a{
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.nav-menu{
+  display:flex;
+  justify-content: space-between;
 }
 
-.imagen1{
-  filter:blur(2px);
-   width: auto;
-   height: 80vh;
+.hero-img{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(94, 85, 85, 0.5)), url("./imagenes/coding-1853305_1920.jpg");
+  width:102.5vw;
+  height:82vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text{
+  display: flex;
+  align-items: center; 
+  flex-direction: column;
+  color:aliceblue; 
+}
+
+.hero-text h1{
+  margin-top:2.5em;
+  margin-bottom: -1em;
+}
+.hero-text button{
+  margin-top: 16.2em;
+  background-color: #e0c8e6;
+  border-radius: 2em; 
+  width: 15em;
+  height: 3.3em; 
 }  
+.hero-text button a{
+  text-decoration: none;
+  font-family: 'Tangerine', cursive; 
+  font-size: 3em;
+
+}
+.hero-text button:hover{
+  background-color: aqua;
+  color:#c82feb;
   
-  header {
-    width: 100%;
-    height: 80px;
-  } 
-  .menu{
-    display:flex;
-    justify-content: space-between;
-  }
-  .menu li {
-    list-style: none;
-  } 
-  .menu a{
-    text-decoration: none;
-  }
-  .nav-menu{
-    display:flex;
-    justify-content: space-between;
-  }
+}
 
   h1 {
     font-family: 'Bebas Neue', cursive;
@@ -46,53 +93,60 @@ body p {
    }
   /*segunda seccion*/
 
-  #section2{
-    box-sizing: border-box;
+  .div-mision{
+    width: 103vw; 
+    height: 48em;
+    background-color: #c82feb; 
+    margin-left:-0.5em;
   }
-  #mision{
-    height:45.6em; 
-    display:flex; 
-    margin-top:4em;
-    background-color: #D9C49C;
-  } 
-
-  #subtitulo-mision{
+   #mision{
+    display: flex; 
+   }
+   
+  #mision h2{
     height: 2em; 
     padding-top:3em;
     padding-left: 2em;
+    font-size: 3em; 
+    margin-top: -1em;
   }
-
-  #texto-section2{
-    text-align:justify;
+  #mision img{
+    width: 20em;
+    height:30em; 
+    border-radius:1em; 
+    border:inset #592B1B 0.4em; 
+    margin-top: 8em; 
+    margin-right: 2em;
+    animation: foto1 2s infinite ease-in alternate; 
+  }
+  @keyframes foto1 {
+    0%{transform: translateY(0);} 
+    100%{transform: translateY(5em);}
+  } 
+  #texto-section2{ 
+    text-align: justify;
     font-size: 1.5em;
-    padding-top:8em;
+    padding-top:1em;
     padding-right:3em;
     margin-left: -0.5em; 
   }
 
-  #imagen-mision{
-     width: 20em;
-     height:30em; 
-     border-radius:1em; 
-     border:inset #592B1B 0.4em; 
-     margin-top: 4em; 
-     animation: foto1 2s infinite ease-in alternate;
-  } 
+  
 
-body{
-    background-color: #D9C49C; 
- 
+/*tercera seccion*/ 
 
-} 
+.historia{ 
+  width: 102vw;
+  height: 73em;
+  background-color: #8C5230; 
+}
+ .img-historia img{
+   width:28em;
+   height: 29em;
+   
 
-img{
-    height:32em; 
-    width:22em; 
-    margin-top:15vh; 
-    margin-right:15vh; 
-    border-radius: 1em; 
-    border:0.5em inset #A68F7B; 
-} 
+ }
+
 #section2{
     display:flex;
 } 
@@ -116,6 +170,18 @@ p{
 }
 
 
-@media (min-width: 481px){
 
+.frasefooter{ 
+  font-family: 'Tangerine', cursive; 
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 2em; 
+  padding-top: 2em;
+}
+.h2-footer {
+  font-size: 2em; 
+  padding-top: 1em;
+} 
+@media (min-width: 481px){
+    
 }
