@@ -54,4 +54,8 @@ body{
   @keyframes foto1 {
     0%{transform: translateY(0);} 
     100%{transform: translateY(5em);}
+  } 
+
+  i{
+    color:blue;
   }
