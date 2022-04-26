@@ -2,7 +2,8 @@
 body{
   width: 103vw;
   height: 100vh; 
-  background-color: #D9C49C; 
+  background-color: #F4F2F1;
+   
 }
 body p {
   font-family: 'Poppins', sans-serif;
@@ -12,7 +13,7 @@ body p {
   margin-bottom: -1em;
 } 
 .brand span{
-  color:#e0c8e6;
+  color:whitesmoke
 }
 .menu{
   display:flex;
@@ -22,13 +23,13 @@ body p {
 } 
 .menu a:hover{
   background-color: aqua;
-  color:#c82feb;
+  color:F4F2F1;
 }
-.menu li {
+.menu ul {
   list-style: none;
 } 
 .menu span{
-  color:#e0c8e6;
+  color:#F4F2F1;
 }
 .menu a{
   text-decoration: none;
@@ -36,8 +37,9 @@ body p {
   font-weight: 500;
 }
 .nav-menu{
-  display:flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    gap: 1em-,
 }
 
 .hero-img{
@@ -49,6 +51,12 @@ body p {
   background-size: cover;
   position: relative;
 }
+.hero-img h1 {
+  font-family: 'Bebas Neue', cursive;
+  color:aliceblue;
+
+}
+
 .hero-text{
   display: flex;
   align-items: center; 
@@ -58,24 +66,25 @@ body p {
 
 .hero-text h1{
   margin-top:2.5em;
-  margin-bottom: -1em;
+  margin-bottom: 0.1em;
 }
 .hero-text button{
   margin-top: 16.2em;
-  background-color: #e0c8e6;
+  background-color: #468e46;
   border-radius: 2em; 
   width: 15em;
   height: 3.3em; 
 }  
 .hero-text button a{
   text-decoration: none;
-  font-family: 'Tangerine', cursive; 
-  font-size: 3em;
+  font-family: 'Poppins', cursive; 
+  font-size: 1.5em;
+  color:#F4F2F1
 
 }
 .hero-text button:hover{
   background-color: aqua;
-  color:#c82feb;
+  color:#ffffff;
   
 }
 
@@ -83,20 +92,20 @@ body p {
     font-family: 'Bebas Neue', cursive;
      font-weight: 100;
      font-size: 4em;
-     color: #5e1e57;
+     color: #592B1B;
    }
    h2 {
      font-family: 'Bebas Neue', cursive;
-     color: #5e1e57;
+     color: #592B1B;
      font-weight: 100;
-     font-size: 1em;
+     font-size: 3em;
    }
   /*segunda seccion*/
 
   .div-mision{
     width: 103vw; 
     height: 48em;
-    background-color: #c82feb; 
+    background-image: url(./imagenes/mision.png);
     margin-left:-0.5em;
   }
    #mision{
@@ -110,6 +119,18 @@ body p {
     font-size: 3em; 
     margin-top: -1em;
   }
+ 
+  
+  #texto-section2{ 
+    display:flex;
+    flex-direction: column;
+    text-align: justify;
+    font-size: 1.5em;
+    padding-top:1em;
+    padding-right:3em;
+    margin-left: -0.5em; 
+  }
+
   #mision img{
     width: 20em;
     height:30em; 
@@ -122,33 +143,26 @@ body p {
   @keyframes foto1 {
     0%{transform: translateY(0);} 
     100%{transform: translateY(5em);}
-  } 
-  #texto-section2{ 
-    text-align: justify;
-    font-size: 1.5em;
-    padding-top:1em;
-    padding-right:3em;
-    margin-left: -0.5em; 
-  }
-
-  
 
 /*tercera seccion*/ 
 
 .historia{ 
-  width: 102vw;
-  height: 73em;
+  width: 1em;
+  height: 2em;
   background-color: #8C5230; 
 }
  .img-historia img{
-   width:28em;
-   height: 29em;
+   width:10em;
+   height: 10em;
    
 
  }
 
-<<<<<<< HEAD
-
+.miembros{
+  height: 2em;
+  width: 2em;
+}
+}
 
 
 
@@ -157,8 +171,6 @@ body p {
 Height:1032px;
 
 } 
-=======
->>>>>>> 4ab8d84f57ae5c31c93df673e57ef9192bb8bf61
 #section2{
     display:flex;
 } 
@@ -184,7 +196,7 @@ p{
 
 
 .frasefooter{ 
-  font-family: 'Tangerine', cursive; 
+  font-family: 'Poppins', sans-serif,cursive; 
   text-align: center;
   font-size: 2em;
   padding-bottom: 2em; 
